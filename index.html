@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <!--Header-->
+    <header class="header">
+        <div class="header_container">
+            <div class="header_logo_container">
+                <div class="header_logo">
+                    <img src="./assets/logo.svg" alt="logo">
+                    <img src="./assets/Adesk.svg" alt="Adesk">
+                </div>
+                <ul class="header_navbar" id="menu">
+                    <li><a class="header_navbar_item" href="/">Возможности</a></li>
+                    <li><a class="header_navbar_item" href="/">Решения</a></li>
+                    <li><a class="header_navbar_item" href="/">Ресурсы</a></li>
+                    <li><a class="header_navbar_item" href="/">Блог</a></li>
+                    <li><a class="header_navbar_item" href="/">Отзывы</a></li>
+                    <li><a class="header_navbar_item" href="/">Цены</a></li>
+                </ul>
+            </div>
+            <div class="header_buttons">
+                <button class="demo_btn"> <img src="./assets/avatar.svg" alt="avatar">Записаться на демо</button>
+                <button class="login_btn">Войти</button>
+                <button class="signup_btn">Зарегистрироваться</button>
+                <img id="menuBtn" class="menu hidden" src="./assets/Menu.svg" alt="menu">
+            </div>
+        </div>
+        <section class="header_info">
+            <div class="header_info_main">
+                <h1 class="header_info_title">Баланс</h1>
+                <p class="header_info_text">Для руководителя, который хочет эффективно распоряжаться ресурсами компании и извлекать из них максимум прибыли.</p>
+                <button class="header_info_btn">Протестировать бесплатно</button>
+            </div>
+            <img class="main_picture" src="./assets/balance_header.png" alt="banner">
+            <img class="hidden mobile_picture" src="./assets/mobile.png" alt="">
+        </section>
+    </header>
+
+     <!--Main-->
+     <main class="main">
+
+        <section class="main_balance">
+            <div class="main_balance_img">
+                <img src="./assets/jar.png" alt="jar">
+            </div>
+            <p class="main_balance_text">
+                Баланс — <span class="text_bold">главный отчет собственника.</span> Он поможет вам понять, где кроется прибыль, какими активами обладает бизнес и насколько эффективно они используются.
+            </p>
+        </section>
+
+        <section class="main_section">
+            <div class="main_section_info">
+                <h2 class="main_section_title">Получите полную картину финансов компании</h2>
+                <p class="main_section_text">Где заморожена прибыль? Богатеет ли компания со временем? Кому принадлежит бизнес — вам или кредиторам? Насколько рационально используются ресурсы?</p>
+                <p class="main_section_text">Все ответы ждут вас в балансе.</p>
+            </div>
+            <img src="./assets/finance_section.png" alt="finance">
+        </section>
+
+        <section class="main_section">
+            <img src="./assets/analytics.png" alt="analytics">
+            <div class="main_section_info">
+                <h2 class="main_section_title">Оперативно оценивайте здоровье бизнеса</h2>
+                <p class="main_section_text">На основе отчета Adesk сам посчитает важные метрики собственника: ROE, ликвидность, финансовую независимость и эффективность бизнеса, как актива.</p>
+                <p class="main_section_text">Остается только проанализировать показатели и скорректировать стратегию развития компании.</p>
+            </div>
+        </section>
+
+        <section class="main_section_video">
+            <div class="main_section_video_info">
+                <h2 class="main_section_video_title">Построить отчет поможет <br/> мастер сборки баланса 🧙‍♂️</h2>
+                <p class="main_section_video_text">Специальный робот вместе с вами пройдет все этапы сверки денег, запасов, <br/> обязательств и капитала, чтобы активы точно сошлись с пассивами.</p>
+            </div>
+            <div class="main_section_video_window">
+                <div class="video_window_header">
+                    <img src="./assets/elipse.svg" alt=".">
+                    <img src="./assets/elipse.svg" alt=".">
+                    <img src="./assets/elipse.svg" alt=".">
+                </div>
+                <video poster="./assets/main_video_placeholder.png" autoplay src="./assets/main_video.mp4" ></video>
+            </div>
+        </section>
+
+        <section class="main_section">
+            <div class="main_section_info">
+                <h2 class="main_section_title">Соберите один раз, а дальше — мы сами</h2>
+                <p class="main_section_text">После первичной сборки отчета сервис будет сам обновлять его на основании изменений данных в сервисе.</p>
+                <p class="main_section_text">Отчет строится по принципу двойной записи, то есть каждое ваше действие в Adesk автоматически отображается в активах и пассивах.</p>
+            </div>
+            <img src="./assets/main_actives.png" alt="finance">
+        </section>
+
+        <section class="main_ending">
+            <div class="main_ending_info">
+                <h2 class="main_ending_title">Узнайте, как ваш бизнес <br/> распоряжается ресурсами</h2>
+                <p class="main_ending_text">Зарегистрируйтесь и получите 14 дней бесплатного доступа <br/> к балансовому отчету и другим инструментам Adesk.</p>
+            </div>
+            <button class="main_ending_btn">Начать учёт в Adesk</button>
+        </section>
+     </main>
+
+     <footer class="footer">
+        <div class="footer_container">
+            <div class="footer_logo">
+                <img src="./assets/adesk_logo.svg" alt="adesk">
+                <p class="footer_logo_text">Рассчитывайте на <br/> <span>Adesk</span></p>
+            </div>
+            <section class="footer_navs">
+                <ul class="footer_navs_list business">
+                    <div class="dropdown">
+                        <li>Возможности</li>
+                        <img class="arrow hidden" src="./assets/arrow.svg" alt="arrow">
+                    </div>
+                    <ul class="footer_menu">
+                        <li><a href="/">Движение денежных средств</a></li>
+                        <li><a href="/">Прибыль и убытки</a></li>
+                        <li><a href="/">Баланс</a></li>
+                        <li><a href="/">Учет обязательств</a></li>
+                        <li><a href="/">Анализ расходов</a></li>
+                        <li><a href="/">Платежный календарь</a></li>
+                        <li><a href="/">Бюджетирование</a></li>
+                        <li><a href="/">Учет товаров и запасов</a></li>
+                        <li><a href="/">Согласование платежей</a></li>
+                        <li><a href="/">Робот-помощник и AI</a></li>
+                        <li><a href="/">Интеграции</a></li>
+                    </ul>
+                </ul>
+                <ul class="footer_navs_list">
+                        <div class="dropdown">
+                            <li>Adesk для бизнеса</li>
+                            <img class="arrow hidden" src="./assets/arrow.svg" alt="arrow">
+                        </div>
+                        <ul class="footer_menu">
+                            <li><a href="/">Digital-агентства</a></li>
+                            <li><a href="/">Маркетинговые агентства</a></li>
+                            <li><a href="/">Стартапы</a></li>
+                            <li><a href="/">Кафе и рестораны</a></li>
+                            <li><a href="/">Строительные компании</a></li>
+                            <li><a href="/">Юридические фирмы</a></li>
+                            <li><a href="/">Фрилансеры</a></li>
+                            <li><a href="/">Adesk vs Таблицы</a></li>
+                        </ul>
+                </ul>
+                <ul class="footer_navs_list">
+                    <div class="dropdown">
+                        <li>Ресурсы</li>
+                        <img class="arrow hidden" src="./assets/arrow.svg" alt="arrow">
+                    </div>
+                    <ul class="footer_menu">
+                        <li><a href="/">Журнал о финансах</a></li>
+                        <li><a href="/">Базовый курс о финансах</a></li>
+                        <li class="course"><a href="/">Расширенный курс по учету</a><img src="./assets/course.svg" alt="course"></li>
+                        <li><a href="/">Шаблон финансовой модели</a></li>
+                        <li><a href="/">Внедрение под ключ</a></li>
+                        <li><a href="/">Партнерская программа</a></li>
+                        <li><a href="/">Бонусы от партнеров</a></li>
+                    </ul>
+                </ul>
+                <div class="footer_navs_list contacts">
+                    <div class="dropdown">
+                        <li>Информация</li>
+                        <img class="arrow hidden" src="./assets/arrow.svg" alt="arrow">
+                    </div>
+                    
+                    <ul class="footer_menu"">  
+                            <li><a href="/">Документация по API</a></li>
+                            <li><a href="/">Отзывы пользователей</a></li>
+                            <li><a href="/">Помощь</a></li>
+                    </ul>
+                    <div class="footer_navs_list">
+                        <div class="dropdown hidden">
+                            <li >Контакты</li>
+                            <img class="arrow hidden" src="./assets/arrow.svg" alt="arrow">
+                        </div>
+                        <ul class="footer_menu ">
+                            <li>По вопросам клиентов:</li>
+                            <li class="email">support@adesk.ru</li>
+                            <li class="phone">+7 (495) 106-21-00</li>
+                        </ul>
+                        <ul>
+                            <li>Предложения и сотрудничество:</li>
+                            <li class="email">inbox@adesk.ru</li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+            </section>
+            <div class="footer_links">
+                <div class="footer_links_partners">
+                    <img src="./assets/visa.svg" alt="visa">
+                    <img src="./assets/mastercard.svg" alt="mastercard">
+                    <img src="./assets/tinkoff.svg" alt="tinkoff">
+                </div>
+                <div class="footer_links_mobile">
+                    <div class="mobile">
+                        <img src="./assets/apple.svg" alt="apple">
+                        <span class="mobile_text">App Store</span>
+                    </div>
+                    <div class="mobile">
+                        <img src="./assets/google play.svg" alt="gp">
+                        <span class="mobile_text">Google Play</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_socials">
+                <div class="footer_socials_policy">
+                    <p class="policy_adesk">ООО «Адеск», 2022</p>
+                    <p>Политика конфиденциальности</p>
+                    <p>Договор-оферта</p>
+                </div>
+                <div class="footer_socials_apps">
+                    <img src="./assets/telegram.svg" alt="telegram">
+                    <img src="./assets/facebook.svg" alt="facebook">
+                    <img src="./assets/vk.svg" alt="vk">
+                    <img src="./assets/yt.svg" alt="youtube">
+                    <img src="./assets/instagram.svg" alt="instagram">
+                </div>
+            </div>
+        </div>
+     </footer>
+
+     <script src="./index.js"></script>
+</body>
+</html>
